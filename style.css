@@ -1,23 +1,43 @@
 body {
   background-color: lightblue;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-h3 {
+#title {
   color: navy;
   margin: 24px;
 }
 
-#gen-content {
-  margin: 24px;
+button {
+  height: 40px;
+  width: 120px;
+}
+
+#insult-content {
+  margin: 12px;
   word-wrap: break-word;
   font-size: 24;
-  color: black;
+  color: brown;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#invention-content {
+  margin: 12px;
+  word-wrap: break-word;
+  font-size: 24;
+  color: blue;
+  height: 60px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #insult {
-  color: brown;
+  margin: 16px;
+  width: 50%;
 }
 
 #invention {
-  color: blue;
+  margin: 16px;
+  width: 50%;
 }
