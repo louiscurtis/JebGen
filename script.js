@@ -57,7 +57,7 @@ const expletiveStandalones = [
 ];
 
 function setTextContent() {
-  const contentDiv = document.getElementById("gen-content");
+  const insultDiv = document.getElementById("insult");
 
   const randomPhraseType = Math.floor(Math.random() * 2);
 
@@ -66,14 +66,14 @@ function setTextContent() {
 
     const randSecond = Math.floor(Math.random() * expletiveEnds.length);
 
-    contentDiv.innerHTML =
+    insultDiv.innerHTML =
       expletiveStarts[randFirst] + " " + expletiveEnds[randSecond];
   } else if (randomPhraseType === 1) {
     const randFirst = Math.floor(Math.random() * expletiveStarts.length);
 
     const randSecond = Math.floor(Math.random() * expletiveStandalones.length);
 
-    contentDiv.innerHTML =
+    insultDiv.innerHTML =
       expletiveStarts[randFirst] + " " + expletiveStandalones[randSecond];
   }
 }
