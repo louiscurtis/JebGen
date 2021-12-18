@@ -4,10 +4,13 @@
     <link rel="stylesheet" href="style.css" />
     <script src="insults.js"></script>
     <script src="inventions.js"></script>
+    <script src="people.js"></script>
     <script src="rollAll.js"></script>
   </head>
+
+  <!-- This stuff shows up on screen -->
   <body>
-    <div id="title">Jeb Gen</div>
+    <span id="title">Jeb Gen</span>
 
     <button onclick="rollAll()">Roll All!</button>
 
@@ -24,6 +27,15 @@
       <button onclick="setInventionContent()">Invent!</button>
       <span id="invention"></span>
     </div>
+
+    <hr />
+
+    <div id="person-content">
+      <button onclick="setPersonContent()">Name!</button>
+      <span id="person"></span>
+    </div>
+
+    <hr />
   </body>
 
   <script>

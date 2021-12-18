@@ -1,32 +1,30 @@
-const starts = [
-  "Versatile",
-  "Improved",
-  "Superior",
-  "Tricornial",
-  "Wangsational",
-  "Ogdenized",
-  "Vaporized",
-  "Automated",
-  "Auxiliary",
-];
-
-const mids = ["Spinning", "Rump-fed", "Jolly", "Electric", "Pet"];
-
-const ends = [
-  "Poisonator",
-  "Acidifier",
-  "Spontaneator",
-  "Jimmy-Rustler",
-  "Door-Knocker",
-  "Stick",
-  "Pots",
-  "Puffsender",
-  "Wobbler",
-  "Mercurializer",
-];
-
 function setInventionContent() {
-  const insultDiv = document.getElementById("invention");
+  const starts = [
+    "Versatile",
+    "Improved",
+    "Superior",
+    "Tricornial",
+    "Wangsational",
+    "Ogdenized",
+    "Vaporized",
+    "Automated",
+    "Auxiliary",
+  ];
+
+  const mids = ["Spinning", "Rump-fed", "Jolly", "Electric", "Pet"];
+
+  const ends = [
+    "Poisonator",
+    "Acidifier",
+    "Spontaneator",
+    "Jimmy-Rustler",
+    "Door-Knocker",
+    "Stick",
+    "Pots",
+    "Puffsender",
+    "Wobbler",
+    "Mercurializer",
+  ];
 
   const hasMid = Math.floor(Math.random() * 2);
 
@@ -46,5 +44,6 @@ function setInventionContent() {
 
   newPhrase = newPhrase + " " + phraseEnd;
 
-  insultDiv.innerHTML = newPhrase;
+  const inventionDiv = document.getElementById("invention");
+  inventionDiv.innerHTML = newPhrase;
 }
