@@ -15,23 +15,23 @@ const expletiveStarts = [
 ];
 
 const expletiveMids = [
-  "reeling-ripe",
-  "rump-fed",
-  "base-court",
-  "hell-hated",
-  "cankle-loving",
+  "Reeling-ripe",
+  "Rump-fed",
+  "Base-court",
+  "Hell-hated",
+  "Cankle-loving",
 ];
 
 const expletiveEnds = [
-  "berries",
-  "blighter",
-  "bounder",
-  "jimmies",
-  "knocker",
-  "sticks",
-  "pots",
-  "puff",
-  "wobblers",
+  "Berries",
+  "Blighter",
+  "Bounder",
+  "Jimmies",
+  "Knocker",
+  "Sticks",
+  "Pots",
+  "Puff",
+  "Wobblers",
 ];
 
 const expletiveStandalones = [
