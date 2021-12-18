@@ -38,9 +38,19 @@ button {
 #person-content {
   margin: 12px;
   word-wrap: break-word;
-  color: green;
+  color: orangered;
 }
 
 #person {
+  margin: 16px;
+}
+
+#creature-content {
+  margin: 12px;
+  word-wrap: break-word;
+  color: green;
+}
+
+#creature {
   margin: 16px;
 }
