@@ -2,17 +2,28 @@
   <title>Jeb Gen</title>
   <head>
     <link rel="stylesheet" href="style.css" />
-    <script src="script.js"></script>
+    <script src="insults.js"></script>
+    <script src="inventions.js"></script>
   </head>
   <body>
     <h2>Jeb Gen</h2>
 
-    <button onclick="setInsultContent()">Press me</button>
+    <hr />
 
+    <button onclick="setInsultContent()">Insult!</button>
     <br />
     <div id="gen-content">
       Insult:
       <span id="insult"></span>
+    </div>
+
+    <hr />
+
+    <button onclick="setInventionContent()">Invent!</button>
+    <br />
+    <div id="gen-content">
+      Invention:
+      <span id="invention"></span>
     </div>
   </body>
 </html>
