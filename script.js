@@ -1,12 +1,25 @@
 const expletiveStarts = [
-  "crimple",
-  "cropple",
-  "dodgy",
-  "fiddle",
-  "gobble",
-  "goose",
-  "golly",
-  "rustled",
+  "Crimple",
+  "Cropple",
+  "Dodgy",
+  "Fiddle",
+  "Gobble",
+  "Goose",
+  "Golly",
+  "Rustled",
+  "Farty",
+  "Loathed",
+  "Sanctimonious",
+  "Prattling",
+  "Crotchety",
+];
+
+const expletiveMids = [
+  "reeling-ripe",
+  "rump-fed",
+  "base-court",
+  "hell-hated",
+  "cankle-loving",
 ];
 
 const expletiveEnds = [
@@ -56,24 +69,29 @@ const expletiveStandalones = [
   "Wanker",
 ];
 
-function setTextContent() {
+function setInsultContent() {
   const insultDiv = document.getElementById("insult");
 
   const randomPhraseType = Math.floor(Math.random() * 2);
 
-  if (randomPhraseType === 0) {
-    const randFirst = Math.floor(Math.random() * expletiveStarts.length);
+  const hasMid = Math.floor(Math.random() * 2);
 
-    const randSecond = Math.floor(Math.random() * expletiveEnds.length);
+  const randFirst = Math.floor(Math.random() * expletiveStarts.length);
 
-    insultDiv.innerHTML =
-      expletiveStarts[randFirst] + " " + expletiveEnds[randSecond];
-  } else if (randomPhraseType === 1) {
-    const randFirst = Math.floor(Math.random() * expletiveStarts.length);
+  const randMid = Math.floor(Math.random() * expletiveMids.length);
 
-    const randSecond = Math.floor(Math.random() * expletiveStandalones.length);
+  const randSecond =
+    randomPhraseType === 0
+      ? Math.floor(Math.random() * expletiveEnds.length)
+      : Math.floor(Math.random() * expletiveStandalones.length);
 
-    insultDiv.innerHTML =
-      expletiveStarts[randFirst] + " " + expletiveStandalones[randSecond];
+  let newPhrase = expletiveStarts[randFirst];
+
+  if (hasMid === 0) {
+    newPhrase = newPhrase + " " + expletiveMids[randMid];
   }
+
+  newPhrase = newPhrase + " " + expletiveStandalones[randSecond];
+
+  insultDiv.innerHTML = newPhrase;
 }
