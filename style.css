@@ -45,6 +45,11 @@ button {
   margin: 16px;
 }
 
+#french-checkbox {
+  font-size: 12px;
+  color: grey;
+}
+
 #creature-content {
   margin: 12px;
   word-wrap: break-word;
