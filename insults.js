@@ -44,6 +44,7 @@ function setInsultContent() {
     "Bugger",
     "Chunder",
     "Clunge",
+    "Dredgie",
     "Cow",
     "Fanny",
     "Feck",
