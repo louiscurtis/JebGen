@@ -1,9 +1,29 @@
 function setCreatureContent() {
-  const starts = ["Spiny", "Slimy", "Cankerous", "Plated", "Grand"];
+  const starts = [
+    "Spiny",
+    "Slimy",
+    "Cankerous",
+    "Plated",
+    "Grand",
+    "Booty",
+    "Scrunchy",
+  ];
 
-  const mids = ["Green", "Wispy", "Flat-Headed", "Zonked"];
+  const mids = ["Green", "Wispy", "Flat-Headed", "Zonked", "Greased"];
 
-  const ends = ["Hound", "Were-Rat", "Warblebeast", "Antelope"];
+  const ends = [
+    "Hound",
+    "Were-Rat",
+    "Warblebeast",
+    "Antelope",
+    "Gazer",
+    "Tube-ram",
+    "Log",
+    "Centipede",
+    "Beetle",
+    "Turtle",
+    "Vultschpeckler",
+  ];
 
   const hasMid = Math.floor(Math.random() * 2);
   const randFirst = Math.floor(Math.random() * starts.length);

@@ -11,19 +11,27 @@ function setInventionContent() {
     "Auxiliary",
   ];
 
-  const mids = ["Spinning", "Rump-fed", "Jolly", "Electric", "Pet"];
+  const mids = [
+    "Spinning",
+    "Rump-fed",
+    "Jolly",
+    "Electric",
+    "Pet",
+    "Grand",
+    "Chunky",
+  ];
 
   const ends = [
-    "Poisonator",
     "Acidifier",
-    "Spontaneator",
-    "Jimmy-Rustler",
     "Door-Knocker",
-    "Stick",
+    "Jimmy-Rustler",
+    "Mercurializer",
+    "Poisonator",
     "Pots",
     "Puffsender",
+    "Spontaneator",
+    "Stick",
     "Wobbler",
-    "Mercurializer",
   ];
 
   const hasMid = Math.floor(Math.random() * 2);
