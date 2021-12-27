@@ -2,25 +2,25 @@ function setInsultContent() {
   const starts = [
     "Crimple",
     "Cropple",
+    "Crotchety",
     "Dodgy",
+    "Farty",
     "Fiddle",
     "Gobble",
-    "Goose",
     "Golly",
-    "Rustled",
-    "Farty",
+    "Goose",
     "Loathed",
-    "Sanctimonious",
     "Prattling",
-    "Crotchety",
+    "Rustled",
+    "Sanctimonious",
   ];
 
   const mids = [
+    "Base-court",
+    "Cankle-loving",
+    "Hell-hated",
     "Reeling-ripe",
     "Rump-fed",
-    "Base-court",
-    "Hell-hated",
-    "Cankle-loving",
   ];
 
   const ends = [

@@ -1,19 +1,40 @@
 function setPersonContent() {
-  const starts = ["Joe", "Wumbo", "Moody", "Wonky"];
+  const starts = [
+    "Ali",
+    "Golb",
+    "Joe",
+    "Moe",
+    "Moody",
+    "Muhammed",
+    "Tadira",
+    "Wandangerous",
+    "Winstead",
+    "Wonky",
+    "Wumbo",
+    "Yankbee",
+  ];
 
-  const mids = ["Von", "Der", "Smittle", "Jacob"];
+  const mids = ["Von", "Der", "Smittle", "Jacob", "Greeble"];
 
-  const ends = ["Moody", "Jacobson", "Marvin"];
+  const ends = [
+    "Moody",
+    "Jacobson",
+    "Marvin",
+    "Lee",
+    "Sordoba",
+    "Tanker",
+    "Fincher",
+  ];
 
   // frenchy
 
   const startsFr = [
     "Jean",
+    "Pierre",
+    "Francin",
+    "Galdomet",
     "Guillaume",
     "Jeremie",
-    "Galdomet",
-    "Francin",
-    "Jean",
   ];
 
   const midsFr = ["Jean"];

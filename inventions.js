@@ -1,24 +1,24 @@
 function setInventionContent() {
   const starts = [
-    "Versatile",
-    "Improved",
-    "Superior",
-    "Tricornial",
-    "Wangsational",
-    "Ogdenized",
-    "Vaporized",
     "Automated",
     "Auxiliary",
+    "Improved",
+    "Ogdenized",
+    "Superior",
+    "Tricornial",
+    "Vaporized",
+    "Versatile",
+    "Wangsational",
   ];
 
   const mids = [
-    "Spinning",
-    "Rump-fed",
-    "Jolly",
-    "Electric",
-    "Pet",
-    "Grand",
     "Chunky",
+    "Electric",
+    "Grand",
+    "Jolly",
+    "Pet",
+    "Rump-fed",
+    "Spinning",
   ];
 
   const ends = [
