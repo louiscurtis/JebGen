@@ -9,6 +9,11 @@ button {
   width: 120px;
 }
 
+#banner-img {
+  display: flex;
+  justify-content: space-around;
+}
+
 #insult-content {
   margin: 12px;
   word-wrap: break-word;
