@@ -9,6 +9,7 @@ function setInventionContent() {
     "Vaporized",
     "Versatile",
     "Wangsational",
+    "Poly-Dynamic",
   ];
 
   const mids = [
@@ -32,6 +33,7 @@ function setInventionContent() {
     "Spontaneator",
     "Stick",
     "Wobbler",
+    "Aero-Beacon",
   ];
 
   const hasMid = Math.floor(Math.random() * 2);
@@ -42,13 +44,13 @@ function setInventionContent() {
 
   const randSecond = Math.floor(Math.random() * ends.length);
 
-  let newPhrase = starts[randFirst];
+  let newPhrase = toUpper(starts[randFirst]);
 
   if (hasMid === 0) {
-    newPhrase = newPhrase + " " + mids[randMid];
+    newPhrase = newPhrase + " " + toUpper(mids[randMid]);
   }
 
-  const phraseEnd = ends[randSecond];
+  const phraseEnd = toUpper(ends[randSecond]);
 
   newPhrase = newPhrase + " " + phraseEnd;
 

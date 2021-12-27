@@ -76,13 +76,13 @@ function setInsultContent() {
 
   const randSecond = Math.floor(Math.random() * ends.length);
 
-  let newPhrase = starts[randFirst];
+  let newPhrase = toUpper(starts[randFirst]);
 
   if (hasMid === 0) {
-    newPhrase = newPhrase + " " + mids[randMid];
+    newPhrase = newPhrase + " " + toUpper(mids[randMid]);
   }
 
-  newPhrase = newPhrase + " " + ends[randSecond];
+  newPhrase = newPhrase + " " + toUpper(ends[randSecond]);
 
   const insultDiv = document.getElementById("insult");
   insultDiv.innerHTML = newPhrase;

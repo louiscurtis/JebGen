@@ -67,13 +67,13 @@ function setPersonContent() {
     const randMid = Math.floor(Math.random() * mids.length);
     const randSecond = Math.floor(Math.random() * ends.length);
 
-    let newPhrase = starts[randFirst];
+    let newPhrase = toUpper(starts[randFirst]);
 
     if (hasMid === 0) {
-      newPhrase = newPhrase + " " + mids[randMid];
+      newPhrase = newPhrase + " " + toUpper(mids[randMid]);
     }
 
-    const phraseEnd = ends[randSecond];
+    const phraseEnd = toUpper(ends[randSecond]);
 
     newPhrase = newPhrase + " " + phraseEnd;
 
