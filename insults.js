@@ -97,6 +97,7 @@ function setInsultContent() {
     "Wanker",
     "Witless",
     "Wobblers",
+    "Worm",
   ];
 
   const hasMid = Math.floor(Math.random() * 2);
