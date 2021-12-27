@@ -3,7 +3,6 @@
   <head>
     <title>Jeb Gen</title>
     <link rel="stylesheet" href="style.css" />
-
     <script src="toCasing.js"></script>
     <script src="insults.js"></script>
     <script src="positive.js"></script>
@@ -13,75 +12,82 @@
     <script src="rollAll.js"></script>
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
   </head>
-
   <body>
     <button onclick="rollAll()">Roll All!</button>
 
-    <span id="checkbox"
-      ><input
-        type="checkbox"
-        id="casing-toggle"
+    <span id="checkbox">
+      <input
+        type="radio"
+        id="normal-toggle"
         name="casing-toggle"
-        value="casing-toggle"
-      />Lowercase?</span
-    >
-    <span id="checkbox"
-      ><input
-        type="checkbox"
+        value="normal-toggle"
+      />Normal
+    </span>
+
+    <span id="checkbox">
+      <input
+        type="radio"
+        id="lowercase-toggle"
+        name="casing-toggle"
+        value="lowercase-toggle"
+      />Lowercase?
+    </span>
+
+    <span id="checkbox">
+      <input
+        type="radio"
         id="angry-toggle"
-        name="angry-toggle"
+        name="casing-toggle"
         value="angry-toggle"
-      />Angry!</span
-    >
-    <span id="checkbox"
-      ><input
-        type="checkbox"
+      />
+      Angry!
+    </span>
+
+    <span id="checkbox">
+      <input
+        type="radio"
         id="pig-toggle"
-        name="pig-toggle"
+        name="casing-toggle"
         value="pig-toggle"
-      />Oink?</span
-    >
+      />Oink?
+    </span>
 
     <img src="yee-haw.png" alt="yee haw" width="800" height="200" />
 
     <hr />
-
     <div id="insult-content">
       <button onclick="setInsultContent()">Insult!</button>
       <span id="insult"></span>
     </div>
 
     <hr />
-
     <div id="positive-content">
       <button onclick="setPositiveContent()">Positive!</button>
       <span id="positive"></span>
     </div>
 
     <hr />
-
     <div id="invention-content">
       <button onclick="setInventionContent()">Invent!</button>
       <span id="invention"></span>
     </div>
 
     <hr />
-
     <div id="person-content">
       <button onclick="setPersonContent()">Name!</button>
       <span id="person"></span>
-      <span id="french-checkbox"
-        ><input
+
+      <span id="french-checkbox">
+        <input
           type="checkbox"
           id="french-person"
           name="french-person"
           value="french-person"
-        />French?</span
-      >
+        />French?
+      </span>
     </div>
 
     <hr />
-
     <div id="creature-content">
       <button onclick="setCreatureContent()">Tame!</button>
       <span id="creature"></span>
@@ -89,7 +95,6 @@
 
     <hr />
   </body>
-
   <script>
     rollAll();
   </script>

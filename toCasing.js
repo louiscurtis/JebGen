@@ -1,5 +1,5 @@
 function toCasing(inputString) {
-  const shouldLower = document.getElementById("casing-toggle").checked;
+  const shouldLower = document.getElementById("lowercase-toggle").checked;
 
   const shouldAngry = document.getElementById("angry-toggle").checked;
 
