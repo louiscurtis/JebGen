@@ -19,6 +19,16 @@ button {
   margin: 16px;
 }
 
+#positive-content {
+  margin: 12px;
+  word-wrap: break-word;
+  color: green;
+}
+
+#positive {
+  margin: 16px;
+}
+
 #invention-content {
   margin: 12px;
   word-wrap: break-word;

@@ -3,4 +3,5 @@ function rollAll() {
   setInventionContent();
   setPersonContent();
   setCreatureContent();
+  setPositiveContent();
 }
