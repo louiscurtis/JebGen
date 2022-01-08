@@ -29,7 +29,6 @@ function setInventionContent() {
     "Mercurializer",
     "Poisonator",
     "Pots",
-    "Puffsender",
     "Spontaneator",
     "Stick",
     "Wobbler",
