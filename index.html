@@ -3,15 +3,17 @@
   <head>
     <title>Jeb Gen</title>
     <link rel="stylesheet" href="style.css" />
-    <script src="adjectives.js"></script>
-    <script src="nouns.js"></script>
-    <script src="toCasing.js"></script>
-    <script src="insults.js"></script>
-    <script src="positive.js"></script>
-    <script src="inventions.js"></script>
-    <script src="people.js"></script>
-    <script src="creatures.js"></script>
-    <script src="rollAll.js"></script>
+    <script src="util/getRandFromWeb.js"></script>
+    <script src="shared/words.js"></script>
+    <script src="shared/adjectives.js"></script>
+    <script src="shared/nouns.js"></script>
+    <script src="util/toCasing.js"></script>
+    <script src="specific/insults.js"></script>
+    <script src="specific/positive.js"></script>
+    <script src="specific/inventions.js"></script>
+    <script src="specific/people.js"></script>
+    <script src="specific/creatures.js"></script>
+    <script src="util/rollAll.js"></script>
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
   </head>
   <body>
@@ -96,6 +98,12 @@
     <div id="creature-content">
       <button onclick="setCreatureContent()">Tame!</button>
       <span id="creature"></span>
+    </div>
+
+    <hr />
+    <div id="just-words-content">
+      <button onclick="setWordsContent()">Words!</button>
+      <span id="words"></span>
     </div>
 
     <hr />

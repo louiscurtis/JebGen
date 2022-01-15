@@ -5,8 +5,6 @@ function setPositiveContent() {
 
   const ends = ["Girl", "World"];
 
-  const hasMid = Math.floor(Math.random() * 2);
-
   const randFirst = Math.floor(Math.random() * starts.length);
 
   const randMid = Math.floor(Math.random() * mids.length);
@@ -15,9 +13,7 @@ function setPositiveContent() {
 
   let newPhrase = toCasing(starts[randFirst]);
 
-  if (hasMid === 0) {
-    newPhrase = newPhrase + " " + toCasing(mids[randMid]);
-  }
+  newPhrase = newPhrase + " " + toCasing(mids[randMid]);
 
   newPhrase = newPhrase + " " + toCasing(ends[randSecond]);
 

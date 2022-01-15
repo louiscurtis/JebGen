@@ -35,8 +35,6 @@ function setInventionContent() {
     "Aero-Beacon",
   ];
 
-  const hasMid = Math.floor(Math.random() * 2);
-
   const randFirst = Math.floor(Math.random() * starts.length);
 
   const randMid = Math.floor(Math.random() * mids.length);
@@ -45,9 +43,7 @@ function setInventionContent() {
 
   let newPhrase = toCasing(starts[randFirst]);
 
-  if (hasMid === 0) {
-    newPhrase = newPhrase + " " + toCasing(mids[randMid]);
-  }
+  newPhrase = newPhrase + " " + toCasing(mids[randMid]);
 
   const phraseEnd = toCasing(ends[randSecond]);
 
