@@ -26,6 +26,7 @@ function setLazerContent() {
     "grog blossomed ",
     "hornswaggled",
     "hornswaggling",
+    "hull lickin'",
     "jackless",
     "lead swingin'",
     "leaky",
@@ -42,6 +43,7 @@ function setLazerContent() {
     "rotten",
     "rusty",
     "salty",
+    "sandy-cheeked",
     "scabby",
     "scurvy-ridden",
     "ship-scuttlin'",
@@ -58,12 +60,14 @@ function setLazerContent() {
     "swaddled",
     "swaddlin'",
     "thatchless",
+    "thin hulled",
     "thrice-cursed",
     "tithering",
     "toothless",
     "two-hooked",
     "yellow bellied",
     "waddlin'",
+    "wet",
 
   ];
 
@@ -71,13 +75,16 @@ function setLazerContent() {
     "Arse",
     "Abcess",
     "Barnacle",
+    "barrel scraper",
     "Bilge rat",
     "clod",
-    "Curr",
+    "copper catcher",
+    "cork soaker",
+    "curr",
     "dredgie",
     "dry-foot",
     "dungbie",
-    "Flogger",
+    "flogger",
     "jack tar",
     "keister",
     "knave",
@@ -110,6 +117,7 @@ function setLazerContent() {
     "swab",
     "tar",
     "tither",
+    "trundler",
     
   ];
 
