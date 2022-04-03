@@ -41,6 +41,8 @@ function setLazerContent() {
     "parrot-bitten",
     "rickety",
     "rig runnin'",
+    "rigless",
+    "red handed",
     "rotten",
     "rusty",
     "salty",
