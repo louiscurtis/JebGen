@@ -7,6 +7,7 @@ function setLazerContent() {
     "barnacle covered",
     "barnacle encrusted",
     "bilge drinkin'",
+    "biscuit eatin'",
     "bottom-corked",
     "briny",
     "canvas shy",
@@ -121,6 +122,7 @@ function setLazerContent() {
     "tar",
     "tither",
     "trundler",
+    "toothless shark",
     
   ];
 
